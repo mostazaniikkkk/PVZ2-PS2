@@ -1,0 +1,8 @@
+Image00 = Image.load("Sprites/IntroScreen/Background/BG00.png")
+Image05 = Image.load("Sprites/IntroScreen/Background/BG00.png")
+Image06 = Image.load("Sprites/IntroScreen/Background/Ico00.png")
+Image11 = Image.load("Sprites/IntroScreen/Background/Ico00.png")
+Image12 = Image.load("Sprites/IntroScreen/Background/Txt00.png")
+Image17 = Image.load("Sprites/IntroScreen/Background/Txt00.png")
+Image18 = Image.load("Sprites/IntroScreen/Background/Items00.png")
+Image23 = Image.load("Sprites/IntroScreen/Background/Items00.png")
