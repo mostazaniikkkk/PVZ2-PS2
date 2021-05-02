@@ -11,6 +11,7 @@ Array02 = {4,137, 270} --Lugar en Eje X del icono de EA, van en orden de mas luz
 Array03 = {138,319} --Lugar en Eje Y del icono de EA, va en orden de mas luz a menos
 
 speed = 2 --Velocidad de animacion
+Tiempo = 0
 CounterAnim = 0
 
 SoundSystem.SFXVolume(100)
