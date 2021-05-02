@@ -14,6 +14,7 @@ dofile("Codigo/Rooms/PantallaIntro-Static.lua")
 --Room00
 while room == 0 do dofile("Codigo/Rooms/PantallaIntroBucle.lua") end
 
+--Se usan los img del 0 al 24
 dofile("Codigo/Rooms/MenuPrincipal-Static.lua")
 
 while room == 1 do dofile("Codigo/Rooms/MenuPrincipalBucle.lua") end
