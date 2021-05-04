@@ -1,3 +1,5 @@
+joystick = Controls.read()  --Lee el joystick
+
 --Controlador Animacion
 if CounterAnim > speed and CounterAnim < (speed * 2)
 or CounterAnim > (speed * 54) and CounterAnim < (speed * 55) then
@@ -72,6 +74,10 @@ CounterAnim = CounterAnim + 1
 if CounterAnim == 400 then
     CounterAnim = 0
     room = 1
+end
+
+if joystick:start() then
+    CounterAnim =399
 end
 
 screen.flip()

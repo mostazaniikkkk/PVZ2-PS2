@@ -19,3 +19,8 @@ dofile("Codigo/Rooms/MenuPrincipal-Static.lua")
 
 while room == 1 do dofile("Codigo/Rooms/MenuPrincipalBucle.lua") end
 
+--Stage00
+dofile("Codigo/Rooms/Stages/Stage00-Static.lua")
+
+while room == 3 do dofile("Codigo/Rooms/Stages/Stage00Bucle.lua") end
+
